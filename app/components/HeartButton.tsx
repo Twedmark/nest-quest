@@ -8,11 +8,13 @@ import { SafeUser } from "@/app/types";
 interface HeartButtonProps {
   listingId: string;
   currentUser?: SafeUser | null;
+  size?: number;
 }
 
 const HeartButton: React.FC<HeartButtonProps> = ({
   listingId,
   currentUser,
+  size,
 }) => {
   const { hasFavorited, toggleFavorite } = useFavorite({
     listingId,
@@ -30,7 +32,7 @@ const HeartButton: React.FC<HeartButtonProps> = ({
       "
     >
       <AiOutlineHeart
-        size={28}
+        size={size ? size + 4 : 28}
         className="
           absolute
           -right-[2px]
@@ -39,7 +41,7 @@ const HeartButton: React.FC<HeartButtonProps> = ({
         "
       />
       <AiFillHeart
-        size={24}
+        size={size ? size : 24}
         className={hasFavorited ? "fill-rose-500" : "fill-neutral-500/70"}
       />
     </div>

@@ -27,11 +27,11 @@ export const categories = [
     icon: TbBeach,
     description: "This property is close to the beach!",
   },
-  {
-    label: "Windmills",
-    icon: GiWindmill,
-    description: "This property is has windmills!",
-  },
+  // {
+  //   label: "Windmills",
+  //   icon: GiWindmill,
+  //   description: "This property is has windmills!",
+  // },
   {
     label: "Modern",
     icon: MdOutlineVilla,
@@ -62,16 +62,16 @@ export const categories = [
     icon: FaSkiing,
     description: "This property has skiing actives!",
   },
-  {
-    label: "Castles",
-    icon: GiCastle,
-    description: "This property is an ancient castle!",
-  },
-  {
-    label: "Caves",
-    icon: GiCaveEntrance,
-    description: "This property is in a spooky cave!",
-  },
+  // {
+  //   label: "Castles",
+  //   icon: GiCastle,
+  //   description: "This property is an ancient castle!",
+  // },
+  // {
+  //   label: "Caves",
+  //   icon: GiCaveEntrance,
+  //   description: "This property is in a spooky cave!",
+  // },
   {
     label: "Camping",
     icon: GiForestCamp,
@@ -87,11 +87,11 @@ export const categories = [
     icon: GiCactus,
     description: "This property is in the desert!",
   },
-  {
-    label: "Barns",
-    icon: GiBarn,
-    description: "This property is in a barn!",
-  },
+  // {
+  //   label: "Barns",
+  //   icon: GiBarn,
+  //   description: "This property is in a barn!",
+  // },
   {
     label: "Lux",
     icon: IoDiamond,

@@ -30,6 +30,8 @@ const ListingHead: React.FC<ListingHeadProps> = ({
       <Heading
         title={title}
         subtitle={`${location?.region}, ${location?.label}`}
+        currentUser={currentUser}
+        listingId={id}
       />
       <div
         className="
@@ -43,12 +45,12 @@ const ListingHead: React.FC<ListingHeadProps> = ({
         <Image
           src={imageSrc}
           fill
-          className="w-full object-cover"
+          className="w-full object-contain"
           alt={title}
         />
-        <div className="absolute right-5 top-5">
+        {/* <div className="absolute right-5 top-5">
           <HeartButton listingId={id} currentUser={currentUser} />
-        </div>
+        </div> */}
       </div>
     </>
   );
