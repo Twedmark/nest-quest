@@ -11,9 +11,9 @@ const Logo = () => {
       onClick={() => router.push("/")}
       alt="NestQuest"
       className="hidden cursor-pointer md:block"
-      height="100"
+      height="50"
       width="100"
-      src="/images/Small.png"
+      src="/images/Logo.png"
     />
   );
 };
